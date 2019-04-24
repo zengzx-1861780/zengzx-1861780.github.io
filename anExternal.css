@@ -1,0 +1,105 @@
+body{
+    background-image: url('IMG_20180326_135238.jpg');
+    background-size: cover;
+}
+
+div.background {
+    background: url(IMG_20180326_135238.jpg) cover;
+    border: 2px solid rgb(224, 148, 148);
+  }
+  
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 3px solid rgb(247, 119, 119);
+    border-radius: 20px;
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 10px;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Dokdo', cursive;
+    font-size: 25px;
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
+
+#First{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border:solid 8px black;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+
+#Second{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+#Header h1{
+    font-size: 60px;
+    font-family: 'Underdog', cursive;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+#Header{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border:dotted 8px rgb(241, 170, 170);
+    text-align: center;
+}
+
+#Third{
+    width: 500px;
+    border: solid 8px brown;
+    margin: auto;
+    text-align: center;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    float: right;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 15px;
+}
+
+#Fourth{
+    margin: 20px;
+}
+
+img {
+    border-radius: 5px;
+}
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
