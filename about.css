@@ -1,0 +1,67 @@
+	#Header{
+		font-size: 50px;
+		color: rgb(209, 209, 209);
+		text-align: center;
+	}
+
+	#First{
+		color: rgb(197, 142, 142);
+		text-align: center;
+	}
+
+	.box{
+		width: 700px;
+		margin: auto;
+	}
+
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: rgb(53, 53, 53);
+		font-family: 'Pontano Sans', sans-serif;
+		font-size: 12pt;
+		color: #000000;
+	}
+
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	.image
+	{
+		display: inline-block;
+		border: 1px solid rgba(0,0,0,.1);
+	}
+	
+	.image img
+	{
+		display: block;
+		width: 100%;
+	}
+	
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 3em 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
