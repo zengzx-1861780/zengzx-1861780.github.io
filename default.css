@@ -484,7 +484,7 @@
 		border-top: 30px solid rgba(255,255,255,.4);
 		border-left: 30px solid rgba(255,255,255,.4);
 		border-right: 30px solid rgba(255,255,255,.4);
-		background: url(tower.jpg) no-repeat;
+		background: url("tower.jpg") no-repeat;
 		opacity: 0.8;
 		background-size: 100% 100%;
 	}
